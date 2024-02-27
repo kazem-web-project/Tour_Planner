@@ -25,13 +25,15 @@ namespace Tour_Planner
     public partial class EntwurfLorenz : Window, INotifyPropertyChanged
     {
         public string TourSearchText { get; set; } = "Suche..." ;
+        public List<MenuItemModel> MainMenuItems;
+
         public EntwurfLorenz()
         {
             InitializeComponent();
             this.Loaded += OnWindowLoaded;
             this.SizeChanged += OnWindowSizeChanged;
 
-            var menuItems = new List<MenuItemModel>()
+            MainMenuItems = new()
             {
                 new() { Text="TOURS", Command = new ToursMenuCommand() },
                 new() { Text="FILE", Command = new FileMenuCommand() },
@@ -39,7 +41,7 @@ namespace Tour_Planner
                 new() { Text="SETTINGS", Command = new SettingsMenuCommand() }
             };
 
-            MainMenuControl.ItemsSource = menuItems;
+            MainMenuControl.ItemsSource = MainMenuItems;
         }
 
         public event PropertyChangedEventHandler? PropertyChanged;  // during initialization the engine registers itself to listen to PropertyChanged events
