@@ -8,4 +8,13 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="img\image1.png" />
+    <None Remove="resources\material_search_icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="resources\material_search_icon.png" />
+  </ItemGroup>
+
 </Project>

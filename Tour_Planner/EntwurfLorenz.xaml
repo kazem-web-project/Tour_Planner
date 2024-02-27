@@ -15,7 +15,9 @@
             <RowDefinition Height="1*" MinHeight="200"></RowDefinition>-->
         </Grid.RowDefinitions>
         <GridSplitter Grid.Row="0" Height="5" HorizontalAlignment="Stretch" VerticalAlignment="Bottom"/>
-        <Image Margin="0" Grid.Row="0"></Image>
+        
+        <Image Stretch="UniformToFill" x:Name="Map" Grid.Row="0" Source="/img/image1.png" Height="Auto" Width="Auto"></Image>
+        
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition  Width="Auto"></ColumnDefinition>

@@ -40,7 +40,7 @@ namespace Tour_Planner
             public void Execute(object parameter)
             {
                 // Implement the action for the "TOURS" menu click
-                MessageBox.Show("TOURS menu clicked!"); // Replace with your actual action
+                MessageBox.Show("FILE menu clicked!"); // Replace with your actual action
             }
         }
 
@@ -57,7 +57,7 @@ namespace Tour_Planner
             public void Execute(object parameter)
             {
                 // Implement the action for the "TOURS" menu click
-                MessageBox.Show("TOURS menu clicked!"); // Replace with your actual action
+                MessageBox.Show("EDIT menu clicked!"); // Replace with your actual action
             }
         }
 
@@ -74,7 +74,7 @@ namespace Tour_Planner
             public void Execute(object parameter)
             {
                 // Implement the action for the "TOURS" menu click
-                MessageBox.Show("TOURS menu clicked!"); // Replace with your actual action
+                MessageBox.Show("SETTINGS menu clicked!"); // Replace with your actual action
             }
         }
 
