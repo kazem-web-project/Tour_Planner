@@ -7,6 +7,12 @@
         Title="MainWindow" Height="Auto" Width="Auto" MinHeight="450" MinWidth="600"
         DataContext="{Binding RelativeSource={RelativeSource Self}}">
 
+    <Window.Resources>
+        <ResourceDictionary>
+            <BitmapImage x:Key="map" UriSource="/Assets/img/image1.png"></BitmapImage>
+        </ResourceDictionary> 
+    </Window.Resources>
+    
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*" x:Name="MainTopRow"></RowDefinition>
@@ -16,7 +22,7 @@
         </Grid.RowDefinitions>
         <GridSplitter Grid.Row="0" Height="5" HorizontalAlignment="Stretch" VerticalAlignment="Bottom"/>
         
-        <Image Stretch="UniformToFill" x:Name="Map" Grid.Row="0" Source="/img/image1.png" Height="Auto" Width="Auto"></Image>
+        <Image  Stretch="UniformToFill" Grid.Row="0" Margin="5" Source="{StaticResource map}" Height="Auto" Width="Auto"></Image>
         
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
