@@ -3,21 +3,23 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Tour_Planner"
+        xmlns:root="clr-namespace:Tour_Planner"
         xmlns:views="clr-namespace:Tour_Planner.Views"
         xmlns:view_models="clr-namespace:Tour_Planner.ViewModels"
         mc:Ignorable="d" 
-        Title="Entwurf Lorenz" Height="Auto" Width="Auto" MinHeight="450" MinWidth="600"
-        Loaded="OnWindowLoaded"
-        SizeChanged="OnWindowSizeChanged"
-        Content="{Binding DataContext, RelativeSource={RelativeSource Self}}">
+        Title="Entwurf Lorenz" Height="Auto" Width="Auto" MinHeight="450" MinWidth="600">
+    <!--Loaded="{Binding Path=OnWindowLoaded}"
+        SizeChanged="{Binding Path=OnWindowSizeChanged}"-->
 
 
     <Window.Resources>
-        <DataTemplate
+        <!--<DataTemplate
         DataType="{x:Type view_models:MainWindowViewModel}">
-            <local:MainWindow/>
-        </DataTemplate>
+            <root:MainWindow/>
+        </DataTemplate>-->
+        <ResourceDictionary>
+            <BitmapImage x:Key="map" UriSource="/Assets/img/image1.png"></BitmapImage>
+        </ResourceDictionary>
     </Window.Resources>
     <Window.DataContext>
         <view_models:MainWindowViewModel/>

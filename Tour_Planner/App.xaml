@@ -1,8 +1,11 @@
 ﻿<Application x:Class="Tour_Planner.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Tour_Planner"
-             StartupUri="EntwurfLorenz.xaml">
+             xmlns:root="clr-namespace:Tour_Planner"
+             xmlns:views="clr-namespace:Tour_Planner.Views"
+             xmlns:UserControls="clr-namespace:Tour_Planner.Views.UserControls"
+             xmlns:view_models="clr-namespace:Tour_Planner.ViewModels"
+             StartupUri="LorenzView.xaml">
     <Application.Resources>
          
     </Application.Resources>

@@ -12,24 +12,18 @@
   <ItemGroup>
     <None Remove="Assets\img\image1.png" />
     <None Remove="img\image1.png" />
-    <None Remove="resources\material_search_icon.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Assets\icons\route.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="resources\material_search_icon.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Assets\img\image1.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="ViewModels\" />
   </ItemGroup>
 
 </Project>

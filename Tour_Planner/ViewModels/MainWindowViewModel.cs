@@ -2,9 +2,11 @@
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Windows;
+using System.Windows.Input;
+using Tour_Planner.Views;
 using static Tour_Planner.MenuItemCommands;
 
-namespace Tour_Planner
+namespace Tour_Planner.ViewModels
 {
     public class MainWindowViewModel : INotifyPropertyChanged
     {
@@ -50,5 +52,31 @@ namespace Tour_Planner
             //MainBottomRow.MinHeight = _minimumHeight;
         }
 
+        public class MenuItemModel
+        {
+            public required string Text { get; set; }
+            public required ICommand Command { get; set; }
+        }
+
+        public class MenuItemModelCommand : ICommand // Example implementing ICommand
+        {
+            public event EventHandler CanExecuteChanged;
+
+            public bool CanExecute(object parameter)
+            {
+                // Implement logic to determine if the command can be executed
+                return true; // Replace with your actual logic
+            }
+
+            public void Execute(object parameter)
+            {
+                // Implement the action for the menu item
+                MessageBox.Show("Menu item clicked!"); // Replace with your actual logic
+            }
+        }
+
+
     }
+
+
 }
