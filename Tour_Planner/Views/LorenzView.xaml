@@ -1,18 +1,28 @@
-﻿<Window x:Class="Tour_Planner.EntwurfLorenz"
+﻿<Window x:Class="Tour_Planner.Views.LorenzView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tour_Planner"
+        xmlns:views="clr-namespace:Tour_Planner.Views"
+        xmlns:view_models="clr-namespace:Tour_Planner.ViewModels"
         mc:Ignorable="d" 
-        Title="MainWindow" Height="Auto" Width="Auto" MinHeight="450" MinWidth="600"
-        DataContext="{Binding RelativeSource={RelativeSource Self}}">
+        Title="Entwurf Lorenz" Height="Auto" Width="Auto" MinHeight="450" MinWidth="600"
+        Loaded="OnWindowLoaded"
+        SizeChanged="OnWindowSizeChanged"
+        Content="{Binding DataContext, RelativeSource={RelativeSource Self}}">
+
 
     <Window.Resources>
-        <ResourceDictionary>
-            <BitmapImage x:Key="map" UriSource="/Assets/img/image1.png"></BitmapImage>
-        </ResourceDictionary> 
+        <DataTemplate
+        DataType="{x:Type view_models:MainWindowViewModel}">
+            <local:MainWindow/>
+        </DataTemplate>
     </Window.Resources>
-    
+    <Window.DataContext>
+        <view_models:MainWindowViewModel/>
+    </Window.DataContext>
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*" x:Name="MainTopRow"></RowDefinition>

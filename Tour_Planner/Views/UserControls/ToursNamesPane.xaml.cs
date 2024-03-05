@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Tour_Planner.View.UserControls
+namespace Tour_Planner.Views.UserControls
 {
     /// <summary>
     /// Interaction logic for ToursNamesPane.xaml

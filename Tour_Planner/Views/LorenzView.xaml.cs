@@ -22,12 +22,12 @@ namespace Tour_Planner
     /// <summary>
     /// Interaction logic for EntwurfLorenz.xaml
     /// </summary>
-    public partial class EntwurfLorenz : Window, INotifyPropertyChanged
+    public partial class LorenzView : Window, INotifyPropertyChanged
     {
         public string TourSearchText { get; set; } = "Suche..." ;
         public List<MenuItemModel> MainMenuItems;
 
-        public EntwurfLorenz()
+        public LorenzView()
         {
             InitializeComponent();
             this.Loaded += OnWindowLoaded;
