@@ -17,16 +17,16 @@ namespace TourPlanner.DataAccessLayer
             throw new NotImplementedException();
         }
 
-        public List<MediaItem> GetItems()
+        public List<TourLog> GetItems()
         {
             // get media items from file system
-            return new List<MediaItem>()
+            return new List<TourLog>()
             {
-                new MediaItem(){Name = "Item1"},
-                new MediaItem(){Name = "Item2"},
-                new MediaItem(){Name = "Another"},
-                new MediaItem(){Name = "SWE"},
-                new MediaItem(){Name = "FHTW"}
+                new TourLog(){commentText = "Item1"},
+                new TourLog(){commentText = "Item2"},
+                new TourLog(){commentText = "Another"},
+                new TourLog(){commentText = "SWE"},
+                new TourLog(){commentText = "FHTW"}
             };
         }
     }

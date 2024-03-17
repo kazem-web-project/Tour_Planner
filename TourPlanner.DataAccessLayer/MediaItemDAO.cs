@@ -15,7 +15,7 @@ namespace TourPlanner.DataAccessLayer
             //dataAccess = new FileSystem();
         }
 
-        public List<MediaItem> GetItems()
+        public List<TourLog> GetItems()
         {
             return dataAccess.GetItems();
         }

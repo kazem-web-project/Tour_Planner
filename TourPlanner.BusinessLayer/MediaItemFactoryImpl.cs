@@ -14,7 +14,13 @@ namespace TourPlanner.BusinessLayer
 
         public IEnumerable<MediaItem> GetItems()
         {
-            return mediaItemDAO.GetItems();
+            List<TourLog> tourLogs = mediaItemDAO.GetItems();
+            List<MediaItem> tourLogToConvertToMediaItem = new List<MediaItem>();
+            foreach (var item in tourLogs) {
+                tourLogToConvertToMediaItem.Add(new MediaItem() { Name = item.commentText });
+            }
+            return tourLogToConvertToMediaItem;
+
             /*
             return new List<MediaItem>()
             {

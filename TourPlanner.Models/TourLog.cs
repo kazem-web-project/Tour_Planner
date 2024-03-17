@@ -1,22 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace TourPlanner.Models
 {
     public class TourLog
     {
-        public string difficultyText { get; set; } = null;
-        public string ratingText { get; set; } = null;
-        public string durationText { get; set; } = null;
-        public string distanceText { get; set; } = null;
-        public string dateTimeText { get; set; } = null;
-        public string commentText { get; set; } = null;
+        public string difficultyText { get; set; }
+        public string ratingText { get; set; } 
+        public string durationText { get; set; }
+        public string distanceText { get; set; }
+        public string dateTimeText { get; set; }
+        public string commentText { get; set; } 
         public TourLog()
         {
-            
+
         }
 
         public TourLog(string difficultyText, string ratingText, string durationText, string distanceText, string dateTimeText, string commentText)
@@ -30,4 +24,5 @@ namespace TourPlanner.Models
         }
 
     }
+
 }

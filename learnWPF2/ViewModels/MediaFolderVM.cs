@@ -14,6 +14,7 @@ namespace TourPlanner.ViewModels
 
         private RelayCommand searchCommand;
         private RelayCommand clearCommand;
+        bool itemIsSelected= false;
 
 
         //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++        Text:>>>>>>>>>>>>>>>
@@ -156,11 +157,20 @@ namespace TourPlanner.ViewModels
 
         private void SaveTourLog(object commandParameter)
         {
-            TourLog tourLog = new TourLog(this.difficultyText, this.ratingText, this.durationText, this.distanceText,this.dateTimeText,this.commentText) ;
-            this.mediaItemFactory.addItem(tourLog);
-            Items.Clear();
-            ClearForm(null);
-            FillListBox();
+            //if (currentItem== null)
+            if (!itemIsSelected)
+            {
+                TourLog tourLog = new TourLog(this.difficultyText, this.ratingText, this.durationText, this.distanceText, this.dateTimeText, this.commentText);
+                this.mediaItemFactory.addItem(tourLog);
+                Items.Clear();
+                ClearForm(null);
+                FillListBox();
+            }
+            else
+            {
+                // perform update the selected data
+            }
+
         }
 
         public ICommand RemoveCommand => removeCommand ??= new RelayCommand(RemoveTourLog);
@@ -175,7 +185,7 @@ namespace TourPlanner.ViewModels
         public ICommand SearchCommand => searchCommand ??= new RelayCommand(Search);
         public ICommand ClearCommand => clearCommand ??= new RelayCommand(Clear);
 
-        public ObservableCollection<MediaItem> Items { set; get; }  
+        public ObservableCollection<MediaItem> Items { set; get; }
         public MediaItem CurrentItem
         {
             get
@@ -184,27 +194,35 @@ namespace TourPlanner.ViewModels
             }
             set
             {
-                if(currentItem != value && value!=null) { 
+                
+                if (currentItem != value && value != null)
+                {
+                    itemIsSelected = true;
                     currentItem = value;
                     RaisePropertyChangedEvent(nameof(CurrentItem));
+                }else
+                {
+                    itemIsSelected = false;
                 }
             }
         }
 
-        public string SearchName {
+        public string SearchName
+        {
             get
             {
                 return searchName;
             }
 
-            set {
-                if (searchName !=value)
+            set
+            {
+                if (searchName != value)
                 {
                     searchName = value;
                     RaisePropertyChangedEvent(nameof(SearchName));
                 }
             }
-        }        
+        }
         public MediaFolderVM()
         {
             this.mediaItemFactory = MediaItemFactory.GetInstance();

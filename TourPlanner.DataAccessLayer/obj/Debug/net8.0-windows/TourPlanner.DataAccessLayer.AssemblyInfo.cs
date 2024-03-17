@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TourPlanner.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1aeb84bdd9ffb59fbd5357bb69e1efb0424de34b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+848252cbff640eea4d778843915345a44055229e")]
 [assembly: System.Reflection.AssemblyProductAttribute("TourPlanner.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TourPlanner.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

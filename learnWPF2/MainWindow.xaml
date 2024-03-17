@@ -68,8 +68,8 @@
                     <Button Grid.Column="3" Width="50" Margin="5,0,0,0" Command="{Binding SearchCommand}">
                         Search
                     </Button>
-                    <Button Grid.Column="4" Width="50" Margin="5,0,0,0" Command="{Binding ClearCommand}">
-                        Clear
+                    <Button Grid.Column="4" Width="120" Margin="5,0,0,0" Command="{Binding ClearCommand}">
+                        Clear and Unselect
                     </Button>
                 </Grid>
                 <Grid  Grid.Row="3" >
