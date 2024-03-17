@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj": {}
+    "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj": {
+    "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj",
         "projectName": "TourPlanner.BusinessLayer",
-        "projectPath": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\Kazem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\TourPlanner.BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kazem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj"
+              "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj"
               },
-              "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.Models\\TourPlanner.Models.csproj": {
-                "projectPath": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.Models\\TourPlanner.Models.csproj"
+              "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\TourPlanner.Models\\TourPlanner.Models.csproj": {
+                "projectPath": "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\TourPlanner.Models\\TourPlanner.Models.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj": {
+    "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj",
         "projectName": "TourPlanner.DataAccessLayer",
-        "projectPath": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\Kazem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\TourPlanner.DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kazem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -98,8 +98,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.Models\\TourPlanner.Models.csproj": {
-                "projectPath": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.Models\\TourPlanner.Models.csproj"
+              "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\TourPlanner.Models\\TourPlanner.Models.csproj": {
+                "projectPath": "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\TourPlanner.Models\\TourPlanner.Models.csproj"
               }
             }
           }
@@ -141,14 +141,14 @@
         }
       }
     },
-    "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.Models\\TourPlanner.Models.csproj": {
+    "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\TourPlanner.Models\\TourPlanner.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.Models\\TourPlanner.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\TourPlanner.Models\\TourPlanner.Models.csproj",
         "projectName": "TourPlanner.Models",
-        "projectPath": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.Models\\TourPlanner.Models.csproj",
+        "projectPath": "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\TourPlanner.Models\\TourPlanner.Models.csproj",
         "packagesPath": "C:\\Users\\Kazem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.Models\\obj\\",
+        "outputPath": "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\TourPlanner.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kazem\\AppData\\Roaming\\NuGet\\NuGet.Config",

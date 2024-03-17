@@ -23,31 +23,34 @@
 
                 <StackPanel Grid.Row="0">
                     <Label>Date/Time</Label>
-                    <TextBox/>
+                    <TextBox Text="{Binding DateTimeText, Mode=TwoWay}"/>
                     <Label>Difficulty</Label>
-                    <TextBox/>
+                    <TextBox Text="{Binding DifficultyText, Mode=TwoWay}"/>
                     <Label>Distance</Label>
-                    <TextBox/>
+                    <TextBox Text="{Binding DistanceText, Mode=TwoWay}"/>
                     <Label>Duration Time</Label>
-                    <TextBox/>
+                    <TextBox Text="{Binding DurationText, Mode=TwoWay}"/>
                     <Label>Rating</Label>
-                    <TextBox/>
+                    <TextBox Text="{Binding RatingText, Mode=TwoWay}"/>
                     <Label>Comment</Label>
-                    <TextBox/>
+                    <TextBox Text="{Binding CommentText, Mode=TwoWay}"/>
                     <Grid Grid.Row="1" HorizontalAlignment="Right">
 
 
 
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition/>
-                            <ColumnDefinition />
-                            <ColumnDefinition />
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="100"/>
                         </Grid.ColumnDefinitions>
-                        <Button Grid.Column="1" Width="50" Margin="0,0,5,0"  Command="{Binding ClearCommand}">
+                        <Button Grid.Column="0" Width="50"   Command="{Binding SaveCommand}">
                             Save
                         </Button>
-                        <Button Grid.Column="2" Width="50" Margin="0,0,5,0"  Command="{Binding ClearCommand}">
+                        <Button Grid.Column="1" Width="50" Command="{Binding RemoveCommand}">
                             Remove
+                        </Button>
+                        <Button Grid.Column="2" Width="70"   Command="{Binding ClearFormCommand}">
+                            Clear From
                         </Button>
                     </Grid >
                 </StackPanel>

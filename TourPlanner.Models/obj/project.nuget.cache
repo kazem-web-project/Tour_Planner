@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JM7JEcJlv5sD4vR2/6nSx5//vF2mG4vVdgxefiPzoEV4dsofR0Ncl+M0Zj+cQ83zrNuu5SNhYokcVwJsYK2hOQ==",
+  "dgSpecHash": "yipjxDOw0DafaxUEVQpYWba1LweEyZrWyZnqZwAVuUk90lJ1EWuSfo0TLtTM9q3exKPqvxseodiJoJYsLUjl2Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.Models\\TourPlanner.Models.csproj",
+  "projectFilePath": "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\TourPlanner.Models\\TourPlanner.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

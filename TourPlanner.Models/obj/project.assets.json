@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.Models\\TourPlanner.Models.csproj",
+      "projectUniqueName": "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\TourPlanner.Models\\TourPlanner.Models.csproj",
       "projectName": "TourPlanner.Models",
-      "projectPath": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.Models\\TourPlanner.Models.csproj",
+      "projectPath": "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\TourPlanner.Models\\TourPlanner.Models.csproj",
       "packagesPath": "C:\\Users\\Kazem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.Models\\obj\\",
+      "outputPath": "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\TourPlanner.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kazem\\AppData\\Roaming\\NuGet\\NuGet.Config",

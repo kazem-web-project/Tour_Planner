@@ -79,11 +79,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\learnWPF2\\TourPlanner.csproj",
+      "projectUniqueName": "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\learnWPF2\\TourPlanner.csproj",
       "projectName": "TourPlanner",
-      "projectPath": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\learnWPF2\\TourPlanner.csproj",
+      "projectPath": "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\learnWPF2\\TourPlanner.csproj",
       "packagesPath": "C:\\Users\\Kazem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\learnWPF2\\obj\\",
+      "outputPath": "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\learnWPF2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kazem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -100,11 +100,11 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj"
+            "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj"
             },
-            "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.Models\\TourPlanner.Models.csproj": {
-              "projectPath": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.Models\\TourPlanner.Models.csproj"
+            "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\TourPlanner.Models\\TourPlanner.Models.csproj": {
+              "projectPath": "C:\\Users\\Kazem\\source\\repos\\Tour_Planner\\TourPlanner.Models\\TourPlanner.Models.csproj"
             }
           }
         }
