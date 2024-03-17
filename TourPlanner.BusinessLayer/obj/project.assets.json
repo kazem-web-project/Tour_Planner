@@ -1,0 +1,127 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "TourPlanner.DataAccessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "TourPlanner.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TourPlanner.DataAccessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TourPlanner.DataAccessLayer.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "TourPlanner.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/TourPlanner.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TourPlanner.Models.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "TourPlanner.DataAccessLayer/1.0.0": {
+      "type": "project",
+      "path": "../TourPlanner.DataAccessLayer/TourPlanner.DataAccessLayer.csproj",
+      "msbuildProject": "../TourPlanner.DataAccessLayer/TourPlanner.DataAccessLayer.csproj"
+    },
+    "TourPlanner.Models/1.0.0": {
+      "type": "project",
+      "path": "../TourPlanner.Models/TourPlanner.Models.csproj",
+      "msbuildProject": "../TourPlanner.Models/TourPlanner.Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "TourPlanner.DataAccessLayer >= 1.0.0",
+      "TourPlanner.Models >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Kazem\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj",
+      "projectName": "TourPlanner.BusinessLayer",
+      "projectPath": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj",
+      "packagesPath": "C:\\Users\\Kazem\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.BusinessLayer\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Kazem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj"
+            },
+            "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.Models\\TourPlanner.Models.csproj": {
+              "projectPath": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.Models\\TourPlanner.Models.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TourPlanner/1.0.0": {
+        "dependencies": {
+          "TourPlanner.BusinessLayer": "1.0.0",
+          "TourPlanner.Models": "1.0.0"
+        },
+        "runtime": {
+          "TourPlanner.dll": {}
+        }
+      },
+      "TourPlanner.BusinessLayer/1.0.0": {
+        "dependencies": {
+          "TourPlanner.DataAccessLayer": "1.0.0",
+          "TourPlanner.Models": "1.0.0"
+        },
+        "runtime": {
+          "TourPlanner.BusinessLayer.dll": {}
+        }
+      },
+      "TourPlanner.DataAccessLayer/1.0.0": {
+        "dependencies": {
+          "TourPlanner.Models": "1.0.0"
+        },
+        "runtime": {
+          "TourPlanner.DataAccessLayer.dll": {}
+        }
+      },
+      "TourPlanner.Models/1.0.0": {
+        "runtime": {
+          "TourPlanner.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TourPlanner/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TourPlanner.BusinessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TourPlanner.DataAccessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TourPlanner.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,11 @@
+C:\Users\Kazem\source\repos\learnWPF2\TourPlanner.Models\bin\Debug\net8.0-windows\TourPlanner.Models.deps.json
+C:\Users\Kazem\source\repos\learnWPF2\TourPlanner.Models\bin\Debug\net8.0-windows\TourPlanner.Models.dll
+C:\Users\Kazem\source\repos\learnWPF2\TourPlanner.Models\bin\Debug\net8.0-windows\TourPlanner.Models.pdb
+C:\Users\Kazem\source\repos\learnWPF2\TourPlanner.Models\obj\Debug\net8.0-windows\TourPlanner.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kazem\source\repos\learnWPF2\TourPlanner.Models\obj\Debug\net8.0-windows\TourPlanner.Models.AssemblyInfoInputs.cache
+C:\Users\Kazem\source\repos\learnWPF2\TourPlanner.Models\obj\Debug\net8.0-windows\TourPlanner.Models.AssemblyInfo.cs
+C:\Users\Kazem\source\repos\learnWPF2\TourPlanner.Models\obj\Debug\net8.0-windows\TourPlanner.Models.csproj.CoreCompileInputs.cache
+C:\Users\Kazem\source\repos\learnWPF2\TourPlanner.Models\obj\Debug\net8.0-windows\TourPlanner.Models.dll
+C:\Users\Kazem\source\repos\learnWPF2\TourPlanner.Models\obj\Debug\net8.0-windows\refint\TourPlanner.Models.dll
+C:\Users\Kazem\source\repos\learnWPF2\TourPlanner.Models\obj\Debug\net8.0-windows\TourPlanner.Models.pdb
+C:\Users\Kazem\source\repos\learnWPF2\TourPlanner.Models\obj\Debug\net8.0-windows\ref\TourPlanner.Models.dll

@@ -1,0 +1,85 @@
+﻿<Window x:Class="TourPlanner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TourPlanner"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <GroupBox Margin="10" 
+          Header="Tour Log">
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+
+
+                <StackPanel Grid.Row="0">
+                    <Label>Date/Time</Label>
+                    <TextBox/>
+                    <Label>Difficulty</Label>
+                    <TextBox/>
+                    <Label>Distance</Label>
+                    <TextBox/>
+                    <Label>Duration Time</Label>
+                    <TextBox/>
+                    <Label>Rating</Label>
+                    <TextBox/>
+                    <Label>Comment</Label>
+                    <TextBox/>
+                    <Grid Grid.Row="1" HorizontalAlignment="Right">
+
+
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Button Grid.Column="1" Width="50" Margin="0,0,5,0"  Command="{Binding ClearCommand}">
+                            Save
+                        </Button>
+                        <Button Grid.Column="2" Width="50" Margin="0,0,5,0"  Command="{Binding ClearCommand}">
+                            Remove
+                        </Button>
+                    </Grid >
+                </StackPanel>
+                <Grid  Grid.Row="2" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="281*"/>
+                        <ColumnDefinition Width="338*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Grid.Column="0" Text="Name:" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                    <TextBox Name="txtSearchName" VerticalAlignment="Center" Text="{Binding SearchName, Mode=TwoWay}" Grid.ColumnSpan="3" Margin="39,0,0,0"/>
+                    <Button Grid.Column="3" Width="50" Margin="5,0,0,0" Command="{Binding SearchCommand}">
+                        Search
+                    </Button>
+                    <Button Grid.Column="4" Width="50" Margin="5,0,0,0" Command="{Binding ClearCommand}">
+                        Clear
+                    </Button>
+                </Grid>
+                <Grid  Grid.Row="3" >
+
+                    <ListBox x:Name="listMediaItems"
+                            ItemsSource="{Binding Items}"
+                            SelectedItem="{Binding CurrentItem}"
+                            DisplayMemberPath="Name"                 
+                            Margin="0,0,0,0" />
+
+                </Grid>
+            </Grid>
+
+        </GroupBox>
+    </Grid>
+</Window>
