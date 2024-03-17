@@ -6,6 +6,12 @@ namespace TourPlanner.BusinessLayer
     public class MediaItemFactoryImpl : IMediaItemFactory
     {
         private MediaItemDAO mediaItemDAO = new MediaItemDAO();
+
+        public void addItem(TourLog newTourLog)
+        {
+            mediaItemDAO.addItem(newTourLog);
+        }
+
         public IEnumerable<MediaItem> GetItems()
         {
             return mediaItemDAO.GetItems();

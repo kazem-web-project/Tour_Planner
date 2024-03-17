@@ -156,7 +156,11 @@ namespace TourPlanner.ViewModels
 
         private void SaveTourLog(object commandParameter)
         {
-            throw new NotImplementedException();
+            TourLog tourLog = new TourLog(this.difficultyText, this.ratingText, this.durationText, this.distanceText,this.dateTimeText,this.commentText) ;
+            this.mediaItemFactory.addItem(tourLog);
+            Items.Clear();
+            ClearForm(null);
+            FillListBox();
         }
 
         public ICommand RemoveCommand => removeCommand ??= new RelayCommand(RemoveTourLog);

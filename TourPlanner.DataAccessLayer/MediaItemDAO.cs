@@ -11,13 +11,18 @@ namespace TourPlanner.DataAccessLayer
         {
             // chech which datasource to use
                 
-            // dataAccess = new Database();
-            dataAccess = new FileSystem();
+            dataAccess = new Database();
+            //dataAccess = new FileSystem();
         }
 
         public List<MediaItem> GetItems()
         {
             return dataAccess.GetItems();
+        }
+
+        public void addItem(TourLog newTourLog)
+        {
+            dataAccess.addItem(newTourLog);
         }
 
 

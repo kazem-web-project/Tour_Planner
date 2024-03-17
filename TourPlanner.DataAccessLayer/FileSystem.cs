@@ -12,6 +12,10 @@ namespace TourPlanner.DataAccessLayer
             this.filePath = "...";
         }
 
+        public void addItem(TourLog newTourLog)
+        {
+            throw new NotImplementedException();
+        }
 
         public List<MediaItem> GetItems()
         {

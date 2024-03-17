@@ -10,5 +10,6 @@ namespace TourPlanner.DataAccessLayer
     interface IDataAccess
     {
         public List<MediaItem> GetItems();
+        public void addItem(TourLog newTourLog);
     }
 }
