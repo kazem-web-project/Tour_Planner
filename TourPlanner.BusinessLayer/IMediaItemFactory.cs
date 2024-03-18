@@ -11,7 +11,9 @@ namespace TourPlanner.BusinessLayer
     {
         IEnumerable<MediaItem> GetItems();
         IEnumerable<MediaItem> Search(string itemName, bool caseSensitive = false);
-        public void addItem(TourLog newTourLog);
+        public void addItem(MediaItem mediaItem);
+        public void removeItem(MediaItem mediaItem);
+        public void updateItem(MediaItem oldItem, MediaItem newMediaItem );
 
     }
 }

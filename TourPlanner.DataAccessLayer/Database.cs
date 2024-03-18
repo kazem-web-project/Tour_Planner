@@ -48,5 +48,10 @@ namespace TourPlanner.DataAccessLayer
 
             
         }
+
+        public void removeItem(TourLog tourLog)
+        {
+            this.mediaItems.Remove(tourLog);
+        }
     }
 }

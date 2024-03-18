@@ -1,3 +1,4 @@
+
 namespace TourPlanner.Models
 {
     public class TourLog
@@ -23,6 +24,21 @@ namespace TourPlanner.Models
             this.commentText = commentText;
         }
 
+        public override bool Equals(object? obj)
+        {
+            return obj is TourLog log &&
+                   difficultyText == log.difficultyText &&
+                   ratingText == log.ratingText &&
+                   durationText == log.durationText &&
+                   distanceText == log.distanceText &&
+                   dateTimeText == log.dateTimeText &&
+                   commentText == log.commentText;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(difficultyText, ratingText, durationText, distanceText, dateTimeText, commentText);
+        }
     }
 
 }

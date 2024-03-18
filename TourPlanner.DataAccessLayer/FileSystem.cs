@@ -29,5 +29,10 @@ namespace TourPlanner.DataAccessLayer
                 new TourLog(){commentText = "FHTW"}
             };
         }
+
+        public void removeItem(TourLog tourLog)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

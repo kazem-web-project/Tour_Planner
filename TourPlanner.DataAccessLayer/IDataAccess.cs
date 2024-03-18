@@ -11,5 +11,6 @@ namespace TourPlanner.DataAccessLayer
     {
         public List<TourLog> GetItems();
         public void addItem(TourLog newTourLog);
+        void removeItem(TourLog tourLog);
     }
 }

@@ -161,14 +161,20 @@ namespace TourPlanner.ViewModels
             if (!itemIsSelected)
             {
                 TourLog tourLog = new TourLog(this.difficultyText, this.ratingText, this.durationText, this.distanceText, this.dateTimeText, this.commentText);
-                this.mediaItemFactory.addItem(tourLog);
+                this.mediaItemFactory.addItem(new MediaItem() { Name = tourLog.commentText, TourLog = tourLog });
                 Items.Clear();
                 ClearForm(null);
                 FillListBox();
             }
             else
             {
-                // perform update the selected data
+                MediaItem newMediaItem = new MediaItem() { Name = this.commentText,
+                    TourLog = new TourLog(this.difficultyText, this.ratingText, this.durationText, this.distanceText, this.dateTimeText, this.commentText)
+                };
+                this.mediaItemFactory.updateItem(currentItem, newMediaItem);
+                Items.Clear();
+                ClearForm(null);
+                FillListBox();
             }
 
         }
@@ -177,8 +183,13 @@ namespace TourPlanner.ViewModels
 
         private void RemoveTourLog(object commandParameter)
         {
-            // TODO. implement Remove and clear all text inputs
-            throw new NotImplementedException();
+            if (itemIsSelected)
+            {
+                this.mediaItemFactory.removeItem(currentItem);
+                Items.Clear();
+                ClearForm(null);
+                FillListBox();
+            }
         }
 
         //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -199,6 +210,7 @@ namespace TourPlanner.ViewModels
                 {
                     itemIsSelected = true;
                     currentItem = value;
+                    Console.WriteLine(currentItem);
                     RaisePropertyChangedEvent(nameof(CurrentItem));
                 }else
                 {

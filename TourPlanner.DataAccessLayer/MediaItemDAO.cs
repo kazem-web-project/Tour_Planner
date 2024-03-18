@@ -20,9 +20,13 @@ namespace TourPlanner.DataAccessLayer
             return dataAccess.GetItems();
         }
 
-        public void addItem(TourLog newTourLog)
+        public void addItem(MediaItem media)
         {
-            dataAccess.addItem(newTourLog);
+            dataAccess.addItem(media.TourLog);
+        }
+        public void removeItem(MediaItem media)
+        {
+            dataAccess.removeItem(media.TourLog);
         }
 
 
