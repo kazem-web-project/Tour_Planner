@@ -4,9 +4,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:FeatureProject.Views.UserControls"
-             mc:Ignorable="d" MaxWidth="300"
-             Margin="10"
-             >
+             mc:Ignorable="d" Width="250"
+             Margin="10">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -25,7 +24,7 @@
                 <Label Margin="10,0,0,0" DockPanel.Dock="Top" Height="Auto" Content="DURATION:"/>
                 <Label Margin="10,0,0,0" DockPanel.Dock="Top" Height="Auto" Content="DISTANCE:"/>
                 <Label Margin="10,0,0,0" DockPanel.Dock="Top" Height="Auto" Content="VEHICLE:"/>
-                <Button DockPanel.Dock="Bottom" BorderBrush="White" Background="DeepSkyBlue" Height="25" Content="Add Entry" Width="75"/>
+                <Button DockPanel.Dock="Bottom" BorderBrush="White" Background="DeepSkyBlue" Height="25" Content="Select" Width="75"/>
             </DockPanel>
 
             <DockPanel Grid.Column="1" Background="White">
