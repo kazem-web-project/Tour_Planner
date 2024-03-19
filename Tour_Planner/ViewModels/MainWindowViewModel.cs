@@ -26,6 +26,8 @@ namespace Tour_Planner.ViewModels
                 new() { Text = "EDIT", Command = new EditMenuCommand() },
                 new() { Text = "SETTINGS", Command = new SettingsMenuCommand() }
             };
+
+            this.MainMenuItems = MainMenuItems;
         }
 
         private void SearchTourButtonClick(object sender, RoutedEventArgs e)

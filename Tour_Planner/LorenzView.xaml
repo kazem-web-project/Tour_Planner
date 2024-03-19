@@ -6,8 +6,9 @@
         xmlns:root="clr-namespace:Tour_Planner"
         xmlns:views="clr-namespace:Tour_Planner.Views"
         xmlns:view_models="clr-namespace:Tour_Planner.ViewModels"
+        xmlns:user_controls="clr-namespace:Tour_Planner.Views.UserControls"
         mc:Ignorable="d" 
-        Title="Entwurf Lorenz" Height="Auto" Width="Auto" MinHeight="450" MinWidth="600">
+        Title="Entwurf Lorenz" Height="600" Width="850" MinHeight="450" MinWidth="600">
     <!--Loaded="{Binding Path=OnWindowLoaded}"
         SizeChanged="{Binding Path=OnWindowSizeChanged}"-->
 
@@ -21,9 +22,9 @@
             <BitmapImage x:Key="map" UriSource="/Assets/img/image1.png"></BitmapImage>
         </ResourceDictionary>
     </Window.Resources>
-    <Window.DataContext>
+    <!--<Window.DataContext>
         <view_models:MainWindowViewModel/>
-    </Window.DataContext>
+    </Window.DataContext>-->
 
     <Grid>
         <Grid.RowDefinitions>
@@ -45,7 +46,7 @@
             <StackPanel VerticalAlignment="Top"  Margin="0,0,0,10" Grid.Column="0" Orientation="Vertical">
                 <Grid Margin="10,10,10,10">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
                         <ColumnDefinition Width="Auto"/>
                     </Grid.ColumnDefinitions>
                     <TextBox  Grid.Column="0" Text="{Binding Path=TourSearchText}" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" AcceptsReturn="False" Width="Auto" Height="40" DockPanel.Dock="Left" VerticalAlignment="Top"></TextBox>
@@ -62,8 +63,23 @@
                         </ItemsControl.ItemTemplate>
                     </ItemsControl>
                 </StackPanel>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" Orientation="Vertical">
+                <StackPanel Margin="10,10,10,10" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Button Margin="10,10,10,10" Width="150" Height="100">Eins.Eins</Button>
+                    <Button Margin="10,10,10,10" Width="150" Height="100">Eins.Zwei</Button>
+                    <Button Margin="10,10,10,10" Width="150" Height="100">Eins.Drei</Button>
+                </StackPanel>
+
+                <StackPanel Margin="10,10,10,10" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Button Margin="10,10,10,10" Width="150" Height="100">Zwei.Eins</Button>
+                    <Button Margin="10,10,10,10" Width="150" Height="100">Zwei.Zwei</Button>
+                    <Button Margin="10,10,10,10" Width="150" Height="100">Zwei.Drei</Button>
+                </StackPanel>
 
             </StackPanel>
+            
         </Grid>
     </Grid>
 

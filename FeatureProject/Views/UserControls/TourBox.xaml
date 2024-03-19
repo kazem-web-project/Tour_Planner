@@ -1,0 +1,49 @@
+﻿<UserControl x:Class="FeatureProject.Views.UserControls.TourBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FeatureProject.Views.UserControls"
+             mc:Ignorable="d" MaxWidth="300"
+             Margin="10"
+             >
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <DockPanel  Grid.Column="0" Background="White">
+                <Label Margin="10,0,0,0" DockPanel.Dock="Top"  Height="Auto" Content="FROM:"/>
+                <Label Margin="10,0,0,0" DockPanel.Dock="Top" Height="Auto" Content="TO:"/>
+                <Label Margin="10,0,0,0" DockPanel.Dock="Top" Height="Auto" Content="DURATION:"/>
+                <Label Margin="10,0,0,0" DockPanel.Dock="Top" Height="Auto" Content="DISTANCE:"/>
+                <Label Margin="10,0,0,0" DockPanel.Dock="Top" Height="Auto" Content="VEHICLE:"/>
+                <Button DockPanel.Dock="Bottom" BorderBrush="White" Background="DeepSkyBlue" Height="25" Content="Add Entry" Width="75"/>
+            </DockPanel>
+
+            <DockPanel Grid.Column="1" Background="White">
+                <ItemsControl DockPanel.Dock="Top"  x:Name="TourData">
+                    <Label Content="{Binding _from}" />
+                    <Label Content="{Binding _to}" />
+                    <Label Content="{Binding _duration}" />
+                    <Label Content="{Binding _distance}" />
+                    <Label Content="{Binding _vehicle}" />
+                </ItemsControl>
+                <Button DockPanel.Dock="Bottom" BorderBrush="White" Background="DeepSkyBlue" Height="25" Content="Delete Tour" Width="75"/>
+            </DockPanel>
+        </Grid>
+
+        <Label Grid.Row="0" FontSize="24" FontWeight="Light" Name="TourTitle" 
+       VerticalContentAlignment="Center" Background="AliceBlue" 
+       VerticalAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" 
+       Content="{Binding _name}" Width="Auto" Height="50"/>
+    </Grid>
+
+</UserControl>
