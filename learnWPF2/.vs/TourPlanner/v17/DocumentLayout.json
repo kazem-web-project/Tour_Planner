@@ -1,0 +1,277 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B78F04CF-BE57-4E12-AB8D-52208430BDA4}|learnWPF2\\learnWPF2.csproj|c:\\users\\kazem\\source\\repos\\learnwpf2\\learnwpf2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B78F04CF-BE57-4E12-AB8D-52208430BDA4}|learnWPF2\\learnWPF2.csproj|solutionrelative:learnwpf2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B78F04CF-BE57-4E12-AB8D-52208430BDA4}|learnWPF2\\TourPlanner.csproj|c:\\users\\kazem\\source\\repos\\learnwpf2\\learnwpf2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B78F04CF-BE57-4E12-AB8D-52208430BDA4}|learnWPF2\\TourPlanner.csproj|solutionrelative:learnwpf2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B78F04CF-BE57-4E12-AB8D-52208430BDA4}|learnWPF2\\learnWPF2.csproj|c:\\users\\kazem\\source\\repos\\learnwpf2\\learnwpf2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B78F04CF-BE57-4E12-AB8D-52208430BDA4}|learnWPF2\\learnWPF2.csproj|solutionrelative:learnwpf2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B7A9E4A-65C7-4F2F-85A3-6A6DAD8C8E46}|TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj|c:\\users\\kazem\\source\\repos\\learnwpf2\\tourplanner.businesslayer\\tourplanner.businesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1B7A9E4A-65C7-4F2F-85A3-6A6DAD8C8E46}|TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj|solutionrelative:tourplanner.businesslayer\\tourplanner.businesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B78F04CF-BE57-4E12-AB8D-52208430BDA4}|learnWPF2\\TourPlanner.csproj|c:\\users\\kazem\\source\\repos\\learnwpf2\\learnwpf2\\tourplanner.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B78F04CF-BE57-4E12-AB8D-52208430BDA4}|learnWPF2\\TourPlanner.csproj|solutionrelative:learnwpf2\\tourplanner.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0023522F-9A5C-4E00-82DC-23EDD5E68EC7}|TourPlanner.Models\\TourPlanner.Models.csproj|c:\\users\\kazem\\source\\repos\\learnwpf2\\tourplanner.models\\mediaitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0023522F-9A5C-4E00-82DC-23EDD5E68EC7}|TourPlanner.Models\\TourPlanner.Models.csproj|solutionrelative:tourplanner.models\\mediaitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD5110F-BD94-4F2E-B1B2-7F7189B0B1F9}|TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj|c:\\users\\kazem\\source\\repos\\learnwpf2\\tourplanner.dataaccesslayer\\mediaitemdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD5110F-BD94-4F2E-B1B2-7F7189B0B1F9}|TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj|solutionrelative:tourplanner.dataaccesslayer\\mediaitemdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD5110F-BD94-4F2E-B1B2-7F7189B0B1F9}|TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj|c:\\users\\kazem\\source\\repos\\learnwpf2\\tourplanner.dataaccesslayer\\filesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD5110F-BD94-4F2E-B1B2-7F7189B0B1F9}|TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj|solutionrelative:tourplanner.dataaccesslayer\\filesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD5110F-BD94-4F2E-B1B2-7F7189B0B1F9}|TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj|c:\\users\\kazem\\source\\repos\\learnwpf2\\tourplanner.dataaccesslayer\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD5110F-BD94-4F2E-B1B2-7F7189B0B1F9}|TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj|solutionrelative:tourplanner.dataaccesslayer\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B7A9E4A-65C7-4F2F-85A3-6A6DAD8C8E46}|TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj|c:\\users\\kazem\\source\\repos\\learnwpf2\\tourplanner.businesslayer\\mediaitemfactoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B7A9E4A-65C7-4F2F-85A3-6A6DAD8C8E46}|TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj|solutionrelative:tourplanner.businesslayer\\mediaitemfactoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B7A9E4A-65C7-4F2F-85A3-6A6DAD8C8E46}|TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj|c:\\users\\kazem\\source\\repos\\learnwpf2\\tourplanner.businesslayer\\mediaitemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B7A9E4A-65C7-4F2F-85A3-6A6DAD8C8E46}|TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj|solutionrelative:tourplanner.businesslayer\\mediaitemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B7A9E4A-65C7-4F2F-85A3-6A6DAD8C8E46}|TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj|c:\\users\\kazem\\source\\repos\\learnwpf2\\tourplanner.businesslayer\\imediaitemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B7A9E4A-65C7-4F2F-85A3-6A6DAD8C8E46}|TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj|solutionrelative:tourplanner.businesslayer\\imediaitemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B78F04CF-BE57-4E12-AB8D-52208430BDA4}|learnWPF2\\TourPlanner.csproj|c:\\users\\kazem\\source\\repos\\learnwpf2\\learnwpf2\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B78F04CF-BE57-4E12-AB8D-52208430BDA4}|learnWPF2\\TourPlanner.csproj|solutionrelative:learnwpf2\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B78F04CF-BE57-4E12-AB8D-52208430BDA4}|learnWPF2\\TourPlanner.csproj|c:\\users\\kazem\\source\\repos\\learnwpf2\\learnwpf2\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B78F04CF-BE57-4E12-AB8D-52208430BDA4}|learnWPF2\\TourPlanner.csproj|solutionrelative:learnwpf2\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B78F04CF-BE57-4E12-AB8D-52208430BDA4}|learnWPF2\\TourPlanner.csproj|c:\\users\\kazem\\source\\repos\\learnwpf2\\learnwpf2\\viewmodels\\mediafoldervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B78F04CF-BE57-4E12-AB8D-52208430BDA4}|learnWPF2\\TourPlanner.csproj|solutionrelative:learnwpf2\\viewmodels\\mediafoldervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\learnWPF2\\App.xaml",
+              "RelativeDocumentMoniker": "learnWPF2\\App.xaml",
+              "ToolTip": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\learnWPF2\\App.xaml",
+              "RelativeToolTip": "learnWPF2\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-17T16:36:55.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MediaItem.cs",
+              "DocumentMoniker": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.Models\\MediaItem.cs",
+              "RelativeDocumentMoniker": "TourPlanner.Models\\MediaItem.cs",
+              "ToolTip": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.Models\\MediaItem.cs",
+              "RelativeToolTip": "TourPlanner.Models\\MediaItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T16:29:35.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\learnWPF2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "learnWPF2\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\learnWPF2\\MainWindow.xaml",
+              "RelativeToolTip": "learnWPF2\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-15T19:05:46.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\learnWPF2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "learnWPF2\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\learnWPF2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "learnWPF2\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T19:05:41.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TourPlanner.BusinessLayer",
+              "DocumentMoniker": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj",
+              "RelativeDocumentMoniker": "TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj",
+              "ToolTip": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj",
+              "RelativeToolTip": "TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-17T16:26:57.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TourPlanner",
+              "DocumentMoniker": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\learnWPF2\\TourPlanner.csproj",
+              "RelativeDocumentMoniker": "learnWPF2\\TourPlanner.csproj",
+              "ToolTip": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\learnWPF2\\TourPlanner.csproj",
+              "RelativeToolTip": "learnWPF2\\TourPlanner.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-17T16:25:10.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MediaItemDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.DataAccessLayer\\MediaItemDAO.cs",
+              "RelativeDocumentMoniker": "TourPlanner.DataAccessLayer\\MediaItemDAO.cs",
+              "ToolTip": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.DataAccessLayer\\MediaItemDAO.cs",
+              "RelativeToolTip": "TourPlanner.DataAccessLayer\\MediaItemDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T16:29:32.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FileSystem.cs",
+              "DocumentMoniker": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.DataAccessLayer\\FileSystem.cs",
+              "RelativeDocumentMoniker": "TourPlanner.DataAccessLayer\\FileSystem.cs",
+              "ToolTip": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.DataAccessLayer\\FileSystem.cs",
+              "RelativeToolTip": "TourPlanner.DataAccessLayer\\FileSystem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T16:29:28.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Database.cs",
+              "DocumentMoniker": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.DataAccessLayer\\Database.cs",
+              "RelativeDocumentMoniker": "TourPlanner.DataAccessLayer\\Database.cs",
+              "ToolTip": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.DataAccessLayer\\Database.cs",
+              "RelativeToolTip": "TourPlanner.DataAccessLayer\\Database.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T16:29:22.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MediaItemFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.BusinessLayer\\MediaItemFactory.cs",
+              "RelativeDocumentMoniker": "TourPlanner.BusinessLayer\\MediaItemFactory.cs",
+              "ToolTip": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.BusinessLayer\\MediaItemFactory.cs",
+              "RelativeToolTip": "TourPlanner.BusinessLayer\\MediaItemFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T16:29:09.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\learnWPF2\\ViewModels\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "learnWPF2\\ViewModels\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\learnWPF2\\ViewModels\\ViewModelBase.cs",
+              "RelativeToolTip": "learnWPF2\\ViewModels\\ViewModelBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T16:28:56.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\learnWPF2\\ViewModels\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "learnWPF2\\ViewModels\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\learnWPF2\\ViewModels\\RelayCommand.cs",
+              "RelativeToolTip": "learnWPF2\\ViewModels\\RelayCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T16:28:52.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MediaFolderVM.cs",
+              "DocumentMoniker": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\learnWPF2\\ViewModels\\MediaFolderVM.cs",
+              "RelativeDocumentMoniker": "learnWPF2\\ViewModels\\MediaFolderVM.cs",
+              "ToolTip": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\learnWPF2\\ViewModels\\MediaFolderVM.cs",
+              "RelativeToolTip": "learnWPF2\\ViewModels\\MediaFolderVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T16:28:41.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MediaItemFactoryImpl.cs",
+              "DocumentMoniker": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.BusinessLayer\\MediaItemFactoryImpl.cs",
+              "RelativeDocumentMoniker": "TourPlanner.BusinessLayer\\MediaItemFactoryImpl.cs",
+              "ToolTip": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.BusinessLayer\\MediaItemFactoryImpl.cs",
+              "RelativeToolTip": "TourPlanner.BusinessLayer\\MediaItemFactoryImpl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T16:28:20.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IMediaItemFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.BusinessLayer\\IMediaItemFactory.cs",
+              "RelativeDocumentMoniker": "TourPlanner.BusinessLayer\\IMediaItemFactory.cs",
+              "ToolTip": "C:\\Users\\Kazem\\source\\repos\\learnWPF2\\TourPlanner.BusinessLayer\\IMediaItemFactory.cs",
+              "RelativeToolTip": "TourPlanner.BusinessLayer\\IMediaItemFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T16:22:36.123Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
