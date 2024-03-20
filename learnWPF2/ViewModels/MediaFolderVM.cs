@@ -201,6 +201,7 @@ namespace TourPlanner.ViewModels
         {
             get
             {
+
                 return currentItem;
             }
             set
@@ -212,7 +213,15 @@ namespace TourPlanner.ViewModels
                     currentItem = value;
                     Console.WriteLine(currentItem);
                     RaisePropertyChangedEvent(nameof(CurrentItem));
-                }else
+                    DifficultyText = currentItem.TourLog.difficultyText;
+                    RatingText = currentItem.TourLog.ratingText;
+                    DurationText = currentItem.TourLog.durationText;
+                    DistanceText = currentItem.TourLog.distanceText;
+                    DateTimeText = currentItem.TourLog.dateTimeText;
+                    CommentText = currentItem.TourLog.commentText;
+
+                }
+                else
                 {
                     itemIsSelected = false;
                 }
