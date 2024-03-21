@@ -30,7 +30,7 @@ namespace TourPlanner.DataAccessLayer
         public void addItem(TourLog newTourLog)
         {
             // TODO: change it with the database!
-            this.mediaItems.Add(new TourLog(){commentText = newTourLog.commentText});
+            this.mediaItems.Add(newTourLog);
         }
 
         public List<TourLog> GetItems()

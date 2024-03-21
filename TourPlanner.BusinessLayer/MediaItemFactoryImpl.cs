@@ -53,8 +53,8 @@ namespace TourPlanner.BusinessLayer
 
         public void updateItem(MediaItem oldItem, MediaItem newMediaItem)
         {
-            this.removeItem(oldItem);
             this.addItem(newMediaItem);
+            this.removeItem(oldItem);
         }
     }
 }
